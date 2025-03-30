@@ -1,0 +1,37 @@
+.nav {
+  background-color: white;
+  padding: 10px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.navList li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.navList li a:hover {
+  color: gray;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
